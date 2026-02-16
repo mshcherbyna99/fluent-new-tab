@@ -60,7 +60,22 @@ const launcherData = {
         { name: 'Meet', url: 'https://meet.google.com', icon: 'assets/apps/google/meet.svg' },
         { name: 'Music', url: 'https://music.youtube.com', icon: 'assets/apps/google/music.svg' },
         { name: 'Web Store', url: 'https://chromewebstore.google.com', icon: 'assets/apps/google/store.svg' }
-    ], allAppsLink: 'https://about.google/products/' }
+    ], allAppsLink: 'https://about.google/products/' },
+    apple: {
+        apps: [
+            { name: 'Mail', url: 'https://icloud.com/mail', icon: 'assets/apps/apple/mail.png' },
+            { name: 'Contacts', url: 'https://icloud.com/contacts', icon: 'assets/apps/apple/contacts.png' },
+            { name: 'Calendar', url: 'https://icloud.com/calendar', icon: 'assets/apps/apple/calendar.png' },
+            { name: 'Photos', url: 'https://icloud.com/photos', icon: 'assets/apps/apple/photos.png' },
+            { name: 'Drive', url: 'https://icloud.com/iclouddrive', icon: 'assets/apps/apple/drive.png' },
+            { name: 'Notes', url: 'https://icloud.com/notes', icon: 'assets/apps/apple/notes.png' },
+            { name: 'Reminders', url: 'https://icloud.com/reminders', icon: 'assets/apps/apple/reminders.png' },
+            { name: 'Invites', url: 'https://icloud.com/invites', icon: 'assets/apps/apple/invites.png' },
+            { name: 'Pages', url: 'https://icloud.com/pages', icon: 'assets/apps/apple/pages.png' },
+            { name: 'Numbers', url: 'https://icloud.com/numbers', icon: 'assets/apps/apple/numbers.png' },
+            { name: 'Keynote', url: 'https://icloud.com/keynote', icon: 'assets/apps/apple/keynote.png' },
+            { name: 'Find My', url: 'https://icloud.com/find', icon: 'assets/apps/apple/find my.png' }
+        ], allAppsLink: 'https://icloud.com' }
 };
 
 const APP_KEYS = ['shortcuts','theme','weatherEnabled','weatherCity','shortcutsVisible','shortcutsRows','launcherEnabled','launcherProvider','showGreeting','greetingName','greetingStyle', 'userLanguage'];
